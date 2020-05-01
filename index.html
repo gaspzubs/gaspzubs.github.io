@@ -26,6 +26,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <!-- JQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
 </head>
 <body>
 
@@ -33,9 +37,14 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
-      <div class="half-column" style="margin-top: 25%">
+      <div class="one-half column" style="margin-top: 15%">
         <h1>Gaspard HUBER</h1>
         <p>Développeur informatique</p>
+      </div>
+      <div class="one-half column" style="margin-top: 15%;">
+        <h2>Présentation</h2>
+        <p>Lorem Ipsum<br>
+          moi même</p>
       </div>
     </div>
   </div>
@@ -43,18 +52,10 @@
   <div class="container">
     <form>
       <div class="row">
-        <div class="four columns">
-          <label for="EmailInput">Votre email</label>
-          <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="EmailInput">
+        <div class="four columns" style="margin-bottom: 15%">
+          <label>Me contacter par mail : <a href="mailto:gahuber@hotmail.fr"> <img src="images/mail.svg" alt="Mail"></a></label>
         </div>
       </div>
-      <label for="Message">Message</label>
-      <textarea class="u-full-width" id="Message"></textarea>
-      <label class="send-yourself-copy">
-        <input type="checkbox">
-        <span class="label-body">M'envoyer une copie</span>
-      </label>
-      <input class="button-primary" type="submit" value="Envoyer">
     </form>
   </div>
 
