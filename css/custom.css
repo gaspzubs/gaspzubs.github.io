@@ -1,0 +1,21 @@
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero-image {
+    background-image: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */ url("../images/hero3.png");
+
+    height: 40vh;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    margin-top: 1rem;
+}
+
+.profil {
+    position: relative;
+    max-width: 100%;
+    border-radius: 100%;
+}
