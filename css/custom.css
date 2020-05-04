@@ -24,19 +24,32 @@
     text-align: center;
 }
 
+/* About Me
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .header {
     margin-top: 1rem;
+}
+
+.header-text {
+    
 }
 
 .content {
     margin-top: 1rem;
 }
+
 .profil {
     position: relative;
-    max-width: 80%;
+    /* max-width: 80%; */
     border-radius: 100%;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
+    padding: 1rem;
+    vertical-align: middle;
 }
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .rounded-list {
     padding: 0;
@@ -64,11 +77,79 @@
     border-radius: 3rem;
     text-align: center;
     color: black;
-    border: .2rem solid #383333;
+    border: .2rem solid 	#6495ED;
 }
+
+/* Formation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.parcours {
+    text-align: center;
+}
+
+.scrolling-wrapper {
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-snap-align: end;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main {
+    border: .2rem solid 	#6495ED;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.card .tooltiptext {
+    visibility: hidden;
+    background-color: #6495ED;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    border-color: black;
+    white-space: normal;
+    position: absolute;
+    z-index: 1;
+    padding: 1rem;
+    width: 160px;
+    margin-left: -80px;
+}
+
+.card:hover .tooltiptext {
+    visibility: visible;
+}
+
+.card .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: -19px;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #6495ED transparent;
+}
+
+/* Expériences
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.card-experiences {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 3rem;
+    border: .2rem solid #6495ED;
+}
+
+/* More and links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .icon {
     -webkit-filter: brightness(100%);
+    filter: brightness(100%);
     font-size: 3rem;
     color: royalblue;
     vertical-align: middle;
@@ -76,4 +157,5 @@
 
 .icon:hover {
     -webkit-filter: brightness(50%);
+    filter: brightness(50%);
 }

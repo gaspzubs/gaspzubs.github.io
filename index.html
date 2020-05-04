@@ -36,11 +36,12 @@
   <script src="https://kit.fontawesome.com/4bd9745637.js" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="section hero-image">
+  <div class="section hero-image u-max-full-width">
       <div class="container">
         <div class="row">
           <div class="one column twelve columns hero-text">
@@ -59,10 +60,9 @@
     <div class="container flex-container">
       <div class="row">
         <div class="three columns">
-          <img class="profil" src="images/profile.jpg" alt="photo profil">
+          <img class="profil u-max-full-width" src="images/profile.jpg" alt="photo profil">
         </div>
-        <div class="eight columns">
-          <h2>A PROPOS DE MOI</h2>
+        <div class="eight columns header-text">
           <p>Passioné par les nouvelles technologies, j'ai pu au cours de mes études en école d'ingénieur à l'ISAE-ENSMA me spécialiser dans le développement informatique.<br>
             Ce portfolio a pour but de présenter mes projets et mes compétences.<br>
           Mon CV est diponible <a href="docs/Curriculum Vitae - Gaspard HUBER.pdf">ici</a></p>
@@ -74,6 +74,7 @@
   <div class="section content">
     <div class="container">
       <div class="row">
+        <!-- Compétences-->
         <div class="one-half column">
           <h2>Compétences</h2>
           <ul style="list-style-type: none;" class="rounded-list">
@@ -85,6 +86,7 @@
             <li>Web: HTML, PHP, CSS, JQuery, JavaScript</li>
           </ul>
         </div>
+        <!-- Formation développeur-->
         <div class="one-half column">
           <h2>Formé aux aspects suivants du développement</h2>
             <ul style="list-style-type: none;" class="rounded-list">
@@ -99,10 +101,43 @@
         </div>
       </div>
     </div>
+    <!-- Parcours-->
+    <div class="section content parcours">
+      <div class="container">
+        <h2>Parcours de formation</h2>
+        <div class="scrolling-wrapper">
+          <div class="main card"><p>Bac S option SI</p><i class="fas fa-graduation-cap"></i><br> 2012
+            <span class="tooltiptext u-max-full-width"><p>Lycée Pierre Termier, Grenoble</p></span>
+          </div>
+          <div class="card"><i class="fas fa-angle-double-right"></i><i class="fas fa-angle-double-right"></i></div>
+          <div class="main card"><p>Classes Préparatoire MP/MPSI</p><i class="fas fa-school"></i><br>2012 <i class="fas fa-chevron-right"></i> 2015
+            <span class="tooltiptext u-max-full-width"><p>Lycée Berthollet <br>Annecy</p></span>
+          </div>
+          <div class="card"><i class="fas fa-angle-double-right"></i><i class="fas fa-angle-double-right"></i></div>
+          <div class="main card"><p>Ecole d'ingénieur ISAE-Ensma</p><i class="fas fa-school"></i><br>2015 <i class="fas fa-chevron-right"></i> 2020
+            <span class="tooltiptext u-max-full-width"><p>Ecole ISAE-ENSMA (Ecole Nationale Supérieure de Mécanique et Aérotechniques), Chasseneuil du Poitou<br>
+              Spécialisation en Informatique et systèmes embarqués en dernière année</p></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Expériences-->
+    <div class="section content parcours">
+      <div class="container">
+        <h2>Parcours professionnel</h2>
+        <div class="scrolling-wrapper">
+          <div class="button"><p>Stage ouvrier</p></div>
+          <div class="button"><p>Stage ingénieur</p></div>
+          <div class="button"><p>Stage de fin d'études</p></div>
+          <div class="button"><p>Ublu</p></div>
+        </div>
+      </div>
+    </div>
   </div>
+
   <!-- En savoir plus-->
-  <div class="section en_savoir_plus">
-    <div class="container">
+  <div class="section content en_savoir_plus">
+    <div class="container row">
       <div class="row">
         <div class="u-full-width">
           <h3>EN SAVOIR PLUS</h3>
