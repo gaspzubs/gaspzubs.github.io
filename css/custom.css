@@ -1,7 +1,7 @@
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero-image {
-    background-image: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */ url("../images/hero3.png");
+    background-image: url("../images/hero3.png");
 
     height: 40vh;
     /* Position and center the image to scale nicely on all screens */
@@ -10,12 +10,70 @@
     background-size: cover;
     background-attachment: fixed;
 }
-.header{
+
+.hero-text {
+    position: relative;
+    margin-top: 3rem;
+    color: lightgray;
+    text-align: center;
+    text-shadow:  .2rem .2rem darkblue ;
+}
+
+.hero-subtext {
+    position: relative;
+    text-align: center;
+}
+
+.header {
     margin-top: 1rem;
 }
 
+.content {
+    margin-top: 1rem;
+}
 .profil {
     position: relative;
-    max-width: 100%;
+    max-width: 80%;
     border-radius: 100%;
+    margin-top: 1rem;
+}
+
+.rounded-list {
+    padding: 0;
+    vertical-align: middle;
+}
+
+.rounded-list li {
+    position: relative;
+    background-color: #eee;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.rounded-list li:hover {
+    background-color: darkgrey;
+    color: dimgray;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container > div {
+    border-radius: 3rem;
+    text-align: center;
+    color: black;
+    border: .2rem solid #383333;
+}
+
+.icon {
+    -webkit-filter: brightness(100%);
+    font-size: 3rem;
+    color: royalblue;
+    vertical-align: middle;
+}
+
+.icon:hover {
+    -webkit-filter: brightness(50%);
 }
